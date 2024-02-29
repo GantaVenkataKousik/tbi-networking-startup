@@ -5,6 +5,13 @@ const About = () => {
 
   return (
     <section className="about " id="about">
+      <div className='links'>
+        <div className='insta'>
+          <a href="https://www.instagram.com/vishnufoundation.tbi/"><i className="fa-brands fa-instagram"></i>Vishva/insta</a>
+        </div>
+        <div><a href="https://www.linkedin.com/in/vishnu-foundation-tbi-362300252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i className="fa-brands fa-linkedin"></i>Vishva/linkedin</a></div>
+        <div><a href="https://www.linkedin.com/in/venkatakousik/"><i class="fa-solid fa-code"></i>GVK/linkedin</a></div>
+      </div>
       <h2 >Registrations Open  <span>Hurry Up!!!</span></h2>
 
       <div className='buttons'>

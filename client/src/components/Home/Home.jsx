@@ -16,6 +16,7 @@ const Home = ({ imageUrl }) => {
         <div className='scroll-rate'>
 
         </div>
+
     </section>
   );
 };

@@ -57,7 +57,7 @@ const RatePopup = () => {
 
     const styling = {
         fontSize: '1rem',
-        cursor: 'pointer',
+        cursor: 'pointer'
     };
 
     const toastSuccess = () => {

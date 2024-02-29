@@ -379,190 +379,85 @@
     }
   }
   
-@media screen and (max-width:400px) {
-    body {
-      margin-left: 20vw;
+@media screen and (max-width:500px) {
+    .header{
+        display: none;
     }
-  
-    .box-animation,
-    .animation-container,
-    .animation01,
-    .arrow-container,
-    .scrollup,
-    .nav,
-    .container-projects .tags li,
-    #large-header {
-      display: none;
+    body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        word-break: break-all;
     }
-  
-    .new_footer_area .highlight {
-      display: block;
-      margin-top: 5vh;
+    .venue .address{
+        padding: 0rem;
     }
-  
-    .new_footer_area {
-      text-align: center;
+    .venue .timing{
+        margin:0rem;
+        text-align: center;
+        margin-top: 2rem;
     }
-  
-    input {
-      width:
-        80%;
+    .venue .details{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
-  
-    .home__data {
-      font-size: 0.5rem;
+    .venue .details .address{
+        border: none;
     }
-  
-    .contact form,
-    .contact__information {
-      margin-left: -10%;
+    .venue {
+        text-align: center;
     }
-  
-    .contact .contact__content {
-      width: 85%;
+    .venue img{
+        width: 100%;
     }
-  
-    .about__data,
-    .new_footer_area {
-      margin-right: -25vw;
+    .developer .socialProfiles span a{
+        display: block;
+        font-size: 1.4rem;
     }
-  
-    .contact__container {
-      width: 70vw;
+    .developer .socialProfiles .number{
+        font-size: 1.3rem;
+        display: block;
     }
-  
-    .footer_bg,
-    .new_footer_top {
-      width: 50vw;
-      margin-left: 15vw;
+    .developer .details{
+        flex-direction: column-reverse;
     }
-  }
-  
-  @media screen and (max-width:325px) {
-    body {
-      margin-left: 0vw;
+    .developer img{
+        width: 100%;
+        margin-bottom: 1rem;
     }
-  
-    .container-projects .title span {
-      font-size: 1rem;
+    .footer span{
+        display: block;
     }
-  
-    .container-projects .image img {
-      width: 20vw;
-      height: 15vh;
-      border-radius: 50%;
+    .footer .gvk{
+        margin: 0.4rem;
     }
-  
-  
-  
-    .section {
-      justify-content: center;
-      align-items: center;
+    .about .buttons{
+        display: block;
     }
-  
-    body {
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+    .home img{
+        height: 60%;
     }
-  
-    /* Optionally, you can center specific elements within the body */
-  
-    .scrollup {
-      display: none;
+    .home{
+        margin-bottom: -30vh;
     }
-  
-    .section {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  
-  
-  
-    .box-animation,
-    .animation-container,
-    .animation01,
-    .arrow-container,
-    .scrollup,
-    .nav,
-    .container-projects .tags li {
-      display: none;
-    }
-  
-    .about__data {
-      margin-left: -15vw;
-    }
-  
-    .home .main-name {
-      font-size: 5rem;
-    }
-  
-    #dynamic-text {
-      width: fit-content;
-    }
-  
-    .home {
-      margin-left: -20vw;
-    }
-  
-    .new_footer_area {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      display: block;
-      width: 100%;
-      margin-left: 20vw;
-    }
-  
-    .new_footer_area .highlight {
-  
-      margin-top: 5vh;
-    }
-  
-    .new_footer_area .footer_bg {
-      width: 100%;
-    }
-  
-    .copyright {
-      width: 80%;
-      font-size: 1.4rem;
-      margin-left: 10vw;
-    }
-  
-    .footer-follow-icons {
-      margin-left: 10vw;
-    }
-  
-    .home__blob {
-      margin-top: 5vh;
-  
-    }
-  
-    .new_footer_area {
-      margin-left: -20vw;
-      width: 100%;
-    }
-  
-    .contact {
-      display: none;
-    }
-  
-    .f_social_icon {
-      display: none;
-    }
-  }
-  
-  
-  * {
-    font-size: 1.07rem;
-  }
+    .about .links{
+        flex-direction: column;
+        
+        width: 100%;
+        text-align: center;
+    }  
+    .about .links div{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        
+        font-size: 0.4rem;
+      }
+}
   
   @media screen and (max-width:770px) {
     .progress-container {
@@ -571,3 +466,21 @@
     }
   }
   
+  .about .links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .about .links div{
+    margin: 0rem 4rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .about .links a{
+    color:#319DC4 ;
+    font-weight: bold;
+  }
+  .about .links i{
+    margin-right: 0.3rem;
+  }
