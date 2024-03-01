@@ -37,11 +37,11 @@ export const data = [
   {
       Name: 'B.G.S. Prabhashitha',
       Description: 'The future belongs to those who believe in the beauty of their dreams.',
-      ImageUrl: 'pb.jpg'
+      ImageUrl: 'prabhashitha...jpg'
   },
   {
       Name: 'Harika',
       Description: 'Success is not just about the destination, it is about the journey and the lessons learned along the way.',
-      ImageUrl: 'Harika.jpg'
+      ImageUrl: 'pb.jpg'
   }
 ];
