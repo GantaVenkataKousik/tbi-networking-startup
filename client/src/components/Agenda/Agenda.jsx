@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Agenda.css'
-import {day1} from './day1.js';
-import {day2} from './day2.js';
+import { day1 } from './day1.js';
+import { day2 } from './day2.js';
 const Agenda = () => {
     return (
         <>
@@ -13,19 +13,31 @@ const Agenda = () => {
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Start Time</th>
-                                    <th>End Time</th>
-                                    <th>Program</th>
+                                    <th>Start <span>Time</span> </th>
+                                    <th>End <span>Time</span>  </th>
+                                    <th><span>Program</span> </th>
                                 </tr>
                             </thead>
                             <tbody>
-                            {day1.map((item, index) => (
-                                    <tr key={index}>
-                                        <td>{item.start}</td>
-                                        <td>{item.end}</td>
-                                        <td>{item.program}</td>
-                                    </tr>
-                                ))}
+                            {day1.map((item, index) => {
+                                    // Parse start time
+                                    const startParts = item.start.split(":");
+                                    const startHours = startParts[0];
+                                    const startMinutes = startParts[1];
+
+                                    // Parse end time
+                                    const endParts = item.end.split(":");
+                                    const endHours = endParts[0];
+                                    const endMinutes = endParts[1];
+
+                                    return (
+                                        <tr key={index}>
+                                            <td>{startHours}:{startMinutes}</td>
+                                            <td>{endHours}:{endMinutes}</td>
+                                            <td>{item.program}</td>
+                                        </tr>
+                                    );
+                                })}
                             </tbody>
                         </table>
                     </div>
@@ -42,13 +54,25 @@ const Agenda = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                            {day2.map((item, index) => (
-                                    <tr key={index}>
-                                        <td>{item.start}</td>
-                                        <td>{item.end}</td>
-                                        <td>{item.program}</td>
-                                    </tr>
-                                ))}
+                            {day2.map((item, index) => {
+                                    // Parse start time
+                                    const startParts = item.start.split(":");
+                                    const startHours = startParts[0];
+                                    const startMinutes = startParts[1];
+
+                                    // Parse end time
+                                    const endParts = item.end.split(":");
+                                    const endHours = endParts[0];
+                                    const endMinutes = endParts[1];
+
+                                    return (
+                                        <tr key={index}>
+                                            <td>{startHours}:{startMinutes}</td>
+                                            <td>{endHours}:{endMinutes}</td>
+                                            <td>{item.program}</td>
+                                        </tr>
+                                    );
+                                })}
                             </tbody>
                         </table>
                     </div>

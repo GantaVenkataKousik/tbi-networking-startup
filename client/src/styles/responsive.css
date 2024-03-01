@@ -455,7 +455,8 @@
     }
 
     .home img {
-        height: 45%;
+        width: 125%;
+        height: 35%;
     }
 
     .home {
@@ -552,7 +553,7 @@
     .aboutheadingres{
         font-size: 1.6rem;
     }
-      
+
 }
 
 @media screen and (max-width:770px) {
@@ -582,3 +583,26 @@
 .about .links i {
     margin-right: 0.3rem;
 }
+
+@media screen and (max-width:500px) {
+    .agenda{
+      width: 100%;
+    }
+    .agenda th,.agenda td {
+      
+   
+      font-size: 1rem;
+      }
+      .agenda th{
+        font-size: 1rem;
+        padding: 0;
+      }
+      .agenda th span{
+        display: block;
+        word-wrap: normal;
+      }
+      .agenda tbody td:nth-child(2),.agenda tbody td:nth-child(1) {
+        font-size: 0.9rem;
+        padding: 0.3rem;
+      }
+  }
