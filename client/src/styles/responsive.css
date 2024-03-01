@@ -557,7 +557,9 @@
         font-size: 1.35rem;
        margin-bottom: -3vh;      
     }
+    .about .links{
 
+    }
 
 }
 
@@ -588,7 +590,9 @@
 .about .links i {
     margin-right: 0.3rem;
 }
-
+.resLinks{
+    display: none;
+}
 @media screen and (max-width:500px) {
     .agenda{
       width: 100%;
@@ -612,5 +616,18 @@
       .agenda tbody td:nth-child(2),.agenda tbody td:nth-child(1) {
         font-size: 0.9rem;
         padding: 0.3rem;
+      }
+      .about .links{
+        display: none;
+      }
+      .about .resLinks{
+        display: block;
+      }
+      .about .resLinks a{
+        color: #319DC4;
+      }
+      .about .resLinks a i{
+        font-size: 1.8rem;
+        margin: 0.2rem 1rem;
       }
   }
