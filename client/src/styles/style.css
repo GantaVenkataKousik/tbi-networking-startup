@@ -334,8 +334,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 2rem;
 }
-
+.nav a{
+  font-size: 1.6rem;
+}
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
@@ -519,6 +522,7 @@ img {
   width: 70%;
   margin: 0 auto;
   margin-top: 90vh;
+  font-size: 1.3rem;
 }
 
 .about h2 {
@@ -538,7 +542,7 @@ img {
   margin: 1.2rem;
   border-radius: 1rem;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   border: none;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
 }
@@ -559,16 +563,24 @@ img {
 .about .aboutheading {
   margin-top: 5vh;
 }
-
+.about .links a{
+  font-size: 2rem;
+}
 /*==================== SKILLS ====================*/
 
-.media {
+.guests {
 
-  width: 70%;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+h2{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #319DC4;
+  margin-top: 2rem;
+}
 .media h2 {
   color: #319DC4;
   display: block;
@@ -577,17 +589,43 @@ img {
   margin-top: 5vh;
 }
 
-.media .media-container {
-  margin: 0 auto;
+.guests .media-container {
+  
+  width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  
+  align-items: center;
 }
 
-.media-container ul iframe {
-  margin: 1rem;
-  border-radius: 1rem;
+.media-container img{
+  width: 22vw;
+  height: 25vh;
+  border-radius: 1.2rem;
+  cursor: pointer;
 }
-
+.media-container div{
+  width: 22vw;
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  height: 30vh;
+}
+.media-container div h3{
+  text-align: center;
+  font-size: 1.65rem;
+  color: #319DC4;
+  margin-top: 0.3rem;
+}
+.media-container .card{
+  height: 30vh;
+  display:flex;
+  align-items: center;
+}
 /*==================== QUALIFICATION ====================*/
 
 
@@ -1008,6 +1046,7 @@ footer .footer__social a:hover {
   align-items: center;
   color: white;
 }
+
 
 .project img {
   width: 13vw;
@@ -1479,47 +1518,8 @@ button:focus {
 }
 
 
-.skills__data {
-  margin-bottom: 15px;
-}
 
-.skills__titles {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 5px;
-}
 
-.skills__name {
-  display: flex;
-  align-items: center;
-}
-
-.skills__logo {
-  margin-right: 5px;
-}
-
-.skills__number {
-  font-weight: bold;
-}
-
-.skills__bar {
-  height: 10px;
-  background-color: #eee;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.skills__percentage {
-  display: block;
-  height: 100%;
-  background-color: #5779e0;
-  /* Change this color to your preferred color */
-  border-radius: 5px;
-  width: 0;
-  transition: width 1s ease;
-  /* Adjust the transition duration if needed */
-}
 
 .css-19n335a-ToastContainer {
   font-size: 1.5rem !important;
@@ -1530,3 +1530,58 @@ button:focus {
   color: white;
 }
 
+.developer{
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.developer h1{
+  font-size: 2rem;
+  color: #319DC4;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.developer h2{
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+.developer img{
+  width: 20vw;
+  height: 40vh;
+  border-radius: 1.2rem;
+}
+
+.developer .details{
+  display: flex;
+  align-items: center;
+
+}
+
+.developer .socialProfiles{
+  margin-right: 1.2rem;
+}
+
+.developer .socialProfiles span a{
+  font-weight: bold;
+  margin-left: 0.2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #319DC4;
+}
+
+
+.developer .socialProfiles .number{
+  font-size: 1.5rem;
+  color: #319DC4;
+}
+.aboutheadingres{
+  font-size: 2.1rem;
+}
+
+
+.home img{
+  border-radius:'1.2rem'
+}

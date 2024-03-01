@@ -12,11 +12,16 @@ const About = () => {
         <div><a href="https://www.linkedin.com/in/vishnu-foundation-tbi-362300252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i className="fa-brands fa-linkedin"></i>Vishva/linkedin</a></div>
         <div><a href="https://www.linkedin.com/in/venkatakousik/"><i class="fa-solid fa-code"></i>GVK/linkedin</a></div>
       </div>
-      <h2 >Registrations Open  <span>Hurry Up!!!</span></h2>
+      <h2 className='aboutheadingres'>Registrations <span> Open</span>   <span>Hurry Up!!!</span></h2>
 
       <div className='buttons'>
-        <button>single Person : 300/-</button>
-        <button>For group : 700/-</button></div>
+
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeDDUX-cLwEY50X_GGtIt1NnjsI-Q-F-YQy9XE9b0CAsz1ApA/viewform">
+          <button>Register Now 🎉</button>
+        </a>
+
+      </div>
 
 
       <h2 className='aboutheading'>About</h2>

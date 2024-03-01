@@ -25,8 +25,8 @@ export default function Nav() {
               <NavItem to="about" icon="uil-user" label="About" />
               <NavItem to="media" icon="uil-user" label="Media" />
               <NavItem to="venue" icon="uil-briefcase-alt" label="Venue" />
-              <NavItem to="teams" style={style} className="teams" icon="uil-briefcase-alt" label="Teams" />
-              <NavItem to="tickets" icon="uil-message" label="Tickets" />
+              <NavItem to="teams" style={style} className="teams" icon="uil-briefcase-alt" label="Organisers" />
+              <NavItem to="agenda" icon="uil-message" label="Agenda" />
             </ul>
             <i className="uil uil-times nav__close" id="nav-close"></i>
           </div>

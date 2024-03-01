@@ -27,3 +27,11 @@
     width: 35vw;
     border-radius: 1rem;
 }
+.venue{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

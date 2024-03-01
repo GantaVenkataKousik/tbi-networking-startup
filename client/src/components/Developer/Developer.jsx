@@ -3,21 +3,24 @@ import './Designer.css'
 
 const Designer = () => {
     return (
-        <div className="developer">
+        <>
+            <h2 style={{marginBottom:'2rem'}}>Designer</h2>
+            <div className="developer">
 
-            <div >
-                <h1>DESIGNER</h1>
-                <div className="details">
-                    <div className="socialProfiles">
-                        <h2>Linked In : <span><a href="">Venkatakousik</a></span></h2>
-                        <h2>Github : <span><a href="">GantaVenkataKousik</a></span></h2>
-                        <h2>Contact : <span className="number">+91 7337066524</span></h2>
-                        <h2>Role : <span><a href="">Full Stack Developer</a></span></h2>
+                <div >
+                    <div className="details">
+                        <div className="socialProfiles">
+                            <h3>Linked In : <span className="detail"><a href="">Venkatakousik</a></span></h3>
+                            <h3>Github : <span><a href="">GantaVenkataKousik</a></span></h3>
+                            <h3>Contact : <span className="number">+91 7337066524</span></h3>
+                            <h3>Role : <span><a href="">Full Stack Developer</a></span></h3>
+                        </div>
+                        <img src="./persons/gvk.png" alt="" />
                     </div>
-                    <img src="./persons/gvk.png" alt="" />
                 </div>
             </div>
-        </div>
+        </>
+
     )
 }
 

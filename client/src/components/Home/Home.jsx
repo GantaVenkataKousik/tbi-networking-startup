@@ -12,7 +12,7 @@ const Home = ({ imageUrl }) => {
   return (
     <section className="home section" id="home">
 
-        <img src={imageUrl} alt="" />
+        <img src={imageUrl} alt="" style={{borderRadius:'1.2rem'}} />
         <div className='scroll-rate'>
 
         </div>

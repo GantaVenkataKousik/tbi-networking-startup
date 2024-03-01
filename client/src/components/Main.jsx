@@ -6,7 +6,7 @@ import  Media  from './Skills/Media.jsx';
 import Venue from './Venue/Venue.jsx'
 import  Achievements  from './Achievements/Achievements.jsx';
 import Tickets from './Tickets/Tickets.jsx';
-
+import Agenda from './Agenda/Agenda.jsx';
 
 export default function Main({ imageUrl }) {
     
@@ -27,6 +27,9 @@ export default function Main({ imageUrl }) {
                 </Element>
                 <Element name="achievements">
                     <Achievements />
+                </Element>
+                <Element name="agenda">
+                    <Agenda />
                 </Element>
             </main>
         </>

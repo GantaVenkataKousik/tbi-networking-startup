@@ -1,43 +1,47 @@
-// achievementsData.js
-export const achievements = [
+export const data = [
   {
-    title: 'Nutrition Risers',
-    image: 'https://images.indianexpress.com/2022/09/Untitled-design-13.jpg',
-    description: '💻This team has already has their intiative on nutrition products',
+      Name: 'Dr. M.K. Kaushik',
+      Description: 'Strive hard, reach for the stars, and never give up on your dreams.',
+      ImageUrl: 'Kaushik.jpeg'
   },
   {
-    title: 'Technical Hunks',
-    image: 'https://www.royalharbinger.com/upload/12593.jpg',
-    description: '🏅 Startup on placement Stats!✨',
+      Name: 'Ashwin Kathaperumal',
+      Description: 'Embrace challenges, for they shape you into the person you are destined to become.',
+      ImageUrl: 'Ashwin.jpeg'
   },
   {
-    title: 'Nutrition Risers',
-    image: 'https://images.indianexpress.com/2022/09/Untitled-design-13.jpg',
-    description: '💻This team has already has their intiative on nutrition products',
+      Name: 'M. Sai',
+      Description: 'Believe in yourself, for you are capable of achieving greatness beyond imagination.',
+      ImageUrl: 'M. Sai.JPG'
   },
   {
-    title: 'Technical Hunks',
-    image: 'https://www.royalharbinger.com/upload/12593.jpg',
-    description: '🏅 Startup on placement Stats!✨',
+      Name: 'K. Revanth Ram',
+      Description: 'Success is not final, failure is not fatal: It is the courage to continue that counts.,',
+      ImageUrl: 'Revanth.jpeg'
   },
   {
-    title: 'Nutrition Risers',
-    image: 'https://images.indianexpress.com/2022/09/Untitled-design-13.jpg',
-    description: '💻This team has already has their intiative on nutrition products',
+      Name: 'Rupa Sree',
+      Description: 'Every accomplishment starts with the decision to try. Keep pushing forward.',
+      ImageUrl: 'Rupa Sree.jpg'
   },
   {
-    title: 'Technical Hunks',
-    image: 'https://www.royalharbinger.com/upload/12593.jpg',
-    description: '🏅 Startup on placement Stats!✨',
+      Name: 'Harshitha',
+      Description: 'The only limit to our realization of tomorrow will be our doubts of today.',
+      ImageUrl: 'Harshitha.JPG'
   },
   {
-    title: 'Nutrition Risers',
-    image: 'https://images.indianexpress.com/2022/09/Untitled-design-13.jpg',
-    description: '💻This team has already has their intiative on nutrition products',
+      Name: 'D. Abhigna',
+      Description: 'Opportunities don\'t happen, you create them. Keep your vision clear and stay focused.',
+      ImageUrl: 'Abhigna.png'
   },
   {
-    title: 'Technical Hunks',
-    image: 'https://www.royalharbinger.com/upload/12593.jpg',
-    description: '🏅 Startup on placement Stats!✨',
+      Name: 'B.G.S. Prabhashitha',
+      Description: 'The future belongs to those who believe in the beauty of their dreams.',
+      ImageUrl: 'prabhashitha...jpg'
   },
+  {
+      Name: 'Harika',
+      Description: 'Success is not just about the destination, it is about the journey and the lessons learned along the way.',
+      ImageUrl: 'Harika.jpg'
+  }
 ];
