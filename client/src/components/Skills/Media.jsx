@@ -9,7 +9,7 @@ const Skills = () => {
     },
     {
       name: 'Mr . Suresh Krishna Sir',
-      imageUrl: 'Suresh_krishna_isb.jpeg'
+      imageUrl: 'Suresh_krishna_ISB.jpeg'
     },
     {
       name: 'Mr . Divakar Subramaniam Sir',
