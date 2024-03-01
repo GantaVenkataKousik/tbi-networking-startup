@@ -505,20 +505,16 @@
     .venue .timing p {
         font-size: 1.4rem;
     }
-    .media-container{
-        display: flex;
-        flex-direction: column;
-    }
+
+
     .media-container div{
         width: 90%;
         
     }
     .media-container .card img{
         width:100%;
-        height: 30vh;
+        height: 25vh;
         margin: 0 auto;
-    }
-    .media-container div h3{
     }
     .complete-card p{
         font-size: 1.3rem;
